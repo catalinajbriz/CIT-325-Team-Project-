@@ -14,11 +14,13 @@ import cnit.pkg325.project.PersonInterface;
  */
 public class PersonProject implements PersonInterface{
     
+    //creating the strings
     String name;
     Address address;
     String age;
     String birthdate;
-
+    
+//constructor is created
     public PersonProject(String name, Address address, String age, String birthdate) {
         this.name = name;
         this.address = address;
@@ -26,6 +28,7 @@ public class PersonProject implements PersonInterface{
         this.birthdate = birthdate;
     }
     
+//here are the Get and Sets    
     public void resetName(String name){
         this.name = name;
     }
