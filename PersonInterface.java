@@ -9,6 +9,8 @@ package cnit.pkg325.project;
  *
  * @author acall_000
  */
+
+//interface to reset the name
 public interface PersonInterface {
     
     
